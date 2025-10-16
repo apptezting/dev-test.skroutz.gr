@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="480" height="160" viewBox="0 0 480 160" role="img" aria-labelledby="title desc">
+  <title id="title">Clickable SVG link to Google</title>
+  <desc id="desc">An SVG containing a button-like element that opens https://www.google.com in a new tab when clicked.</desc>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="480" height="160" fill="#f6f8fa" />
+
+  <!-- Label -->
+  <text x="240" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#24292e">
+    Click the button below to open Google
+  </text>
+
+  <!-- Hyperlink group -->
+  <a xlink:href="https://www.google.com" href="https://www.google.com" target="_blank">
+    <g transform="translate(140,70)">
+      <!-- Button shape -->
+      <rect x="0" y="0" rx="12" ry="12" width="200" height="56" fill="#0b5fff" />
+      <rect x="0" y="0" rx="12" ry="12" width="200" height="56" fill="none" stroke="#0b5fff" stroke-width="2"/>
+      <!-- Button label -->
+      <text x="100" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#ffffff">
+        Open Google
+      </text>
+    </g>
+  </a>
+</svg>
